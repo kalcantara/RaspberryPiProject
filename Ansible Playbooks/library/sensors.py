@@ -10,7 +10,6 @@ short_description: Check Hardware
 ```
 
 EXAMPLES = ```
-
 ---
 - name: Check Hardware Usage
   Sensors:
