@@ -1,0 +1,10 @@
+---
+- hosts: piPrivate
+  gather_facts: False
+  sudo: True
+  user: pi
+
+  tasks:
+
+    - name: Update All Packages
+      apt: upgrade=dist
